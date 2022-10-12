@@ -8,7 +8,6 @@ header{
 
 main{
     height: calc(100vh - 70px);
-    
 }
 
 .logo-mobile{
@@ -26,3 +25,19 @@ main{
   background-image: url(../img/sidebar-bg.png);
   background-color: rgba(5, 30, 52, 1);
 }
+
+/* SIDE BAR COMPLETATA */
+
+.main-header{
+  background-color: rgb(12, 53, 129); 
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.font-size{
+    font-size: 0.8rem;
+}
+
+/* MAIN HEADER COMPLETED */
