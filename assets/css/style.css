@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    height: 70px;
+}
+
+main{
+    height: calc(100vh - 70px);
+    background-color: brown;
+}
+
+.logo-mobile{
+    height: 40px;
+    width: 40px;
+}
