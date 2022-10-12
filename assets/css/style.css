@@ -3,7 +3,6 @@ body{
 }
 
 header{
-    background-color: black;
     height: 70px;
 }
 
@@ -16,3 +15,9 @@ main{
     height: 40px;
     width: 40px;
 }
+
+.logo-desktop{
+    height: 40px;
+}
+
+/* <!-- HEADER COMPLETATO --> */

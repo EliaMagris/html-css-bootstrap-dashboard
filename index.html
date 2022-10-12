@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <header>
+    <header class="p-2">
         <nav class="navbar bg-light">
             <form class="container-fluid">
               <div class="input-group">
-                <div class=""><img class="logo-mobile" src="assets/img/mobile-logo.png" alt=""></div>
+                <div class="d-lg-none"><img class="logo-mobile" src="assets/img/mobile-logo.png" alt=""></div>
+                <div class="d-none d-lg-block"><img class="logo-desktop p-2" src="assets/img/logo.svg" alt=""></div>
                 <span class="input-group-text rounded-start" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <input type="text" class="form-control rounded-end" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                 <div class="row align-items-center">
@@ -26,6 +27,9 @@
             </form>
           </nav>
     </header>
+
+    <!-- HEADER COMPLETATO -->
+
     <main>
         <div class="container-fluid">
             <div class="row">
