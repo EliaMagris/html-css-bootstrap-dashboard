@@ -56,3 +56,18 @@ main{
         transform: translateX(100%);
     }
 }
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* HOVER SECTION */
+
+.hover-sidebar:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.hover-pills:hover{
+    background-color: rgba(18, 91, 200, 0.5) !important;
+}
